@@ -7,7 +7,7 @@ const ultimoParametro = url.pathname.split('/').pop();
 console.log(ultimoParametro);  // Imprimirá "2"
 
 
-async function loadCoche() {
+async function loadColor() {
     const response = await fetch('http://localhost:3000/api/colores/' + ultimoParametro);
     const colorData = await response.json();
   
@@ -19,4 +19,22 @@ async function loadCoche() {
     document.getElementById("color-hex").innerHTML = colorData.properties.hexCode;
 }
   
-loadCoche();
+loadColor();
+
+async function loadColors(){
+    const response = await fetch('http://localhost:3000/api/colores');
+    const colorsData = await response.json();
+  
+    console.log(colorsData);
+    
+    let htmlColors = '';
+    colorsData.forEach(color => {
+        console.log(color);
+        htmlColors += '<li><a href="/colores/' + color.id + '">' + color.properties.name + '</a></li>';
+    });
+
+    //Print propiedades
+    document.getElementById("list-other-colors").innerHTML = htmlColors;
+}
+
+loadColors();

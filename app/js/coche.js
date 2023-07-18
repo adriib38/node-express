@@ -5,7 +5,7 @@ const ultimoParametro = url.pathname.split("/").pop();
 
 console.log(ultimoParametro);
 
-async function loadCoche() {
+async function loadColor() {
   const response = await fetch(
     "http://localhost:3000/api/coches/" + ultimoParametro
   );
@@ -25,4 +25,4 @@ async function loadCoche() {
   document.getElementById("list-properties").innerHTML = htmlProperties;
 }
 
-loadCoche();
+loadColor();
