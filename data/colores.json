@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "properties": {
+      "name": "fuchsia",
+      "hexCode": "#be29ec"
+    }
+  },
+  {
+    "id": 2,
+    "properties": {
+      "name": "olive",
+      "hexCode": "#2e5f0a"
+    }
+  },
+  {
+    "id": 3,
+    "properties": {
+      "name": "aqua",
+      "hexCode": "#09d7e2"
+    }
+  },
+  {
+    "id": 4,
+    "properties": {
+      "name": "maroon",
+      "hexCode": "#81140b"
+    }
+  },
+  {
+    "id": 5,
+    "properties": {
+      "name": "navy",
+      "hexCode": "#060e72"
+    }
+  },
+  {
+    "id": 6,
+    "properties": {
+      "name": "teal",
+      "hexCode": "#12827b"
+    }
+  },
+  {
+    "id": 7,
+    "properties": {
+      "name": "purple",
+      "hexCode": "#7610db"
+    }
+  },
+  {
+    "id": 8,
+    "properties": {
+      "name": "silver",
+      "hexCode": "#c2c9ca"
+    }
+  },
+  {
+    "id": 9,
+    "properties": {
+      "name": "green",
+      "hexCode": "#1db221"
+    }
+  },
+  {
+    "id": 10,
+    "properties": {
+      "name": "yellow",
+      "hexCode": "#f3f746"
+    }
+  }
+]
