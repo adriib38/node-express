@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const app = express();
 const path = require("path");
@@ -7,33 +8,26 @@ const fs = require("fs");
 app.use(express.static(path.join(__dirname, "app")));
 
 const colorRoutes = require("./routes/color");
-const cocheRoutes = require("./routes/coche");
+const filmRoutes = require("./routes/film");
 
 // Ruta para manejar la solicitud HTTP
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "app", "index.html"));
+  console.log(req.url);
+  res.statusCode = 200;
+  res.setHeader("Content-Type", "text/html", "charset=utf-8");
+  res.end("Hola Mundo");
 });
 
-// Ruta para obtener jsons de todos los objetos
+// Ruta coches
 app.use("/api/colores", colorRoutes);
-app.use("/api/coches", cocheRoutes);
 
-// Ruta para obtener json de un objeto por ID
-app.use("/api/coche/:id", cocheRoutes);
-app.use("/api/color/:id", colorRoutes);
+// Ruta films
+app.use("/api/films", filmRoutes);
 
-// Rutas devolver pagina html
-app.get("/colores/:id", function (req, res) {
-  res.sendFile(path.join(__dirname, "app", "color.html"));
-});
 
-app.get("/coches/:id", function (req, res) {
-  res.sendFile(path.join(__dirname, "app", "coche.html"));
-});
-
-const puerto = 3000;
-app.listen(puerto, function () {
-  console.log("Servidor web iniciado en el puerto " + puerto);
+const port = process.env.PORT ?? 3000
+app.listen(port, function () {
+  console.log("Servidor web iniciado en el puerto " + port);
 });
 
 module.exports = app;

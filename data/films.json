@@ -1,0 +1,135 @@
+[
+  {
+    "ImdbId": "tt2421546",
+    "_id": "tt2421546",
+    "name": "Elskovsbarnet",
+    "poster_url": "https://m.media-amazon.com/images/S/sash/NapCxx-VwSOJtCZ.",
+    "year": "1914",
+    "certificate": "",
+    "runtime": "",
+    "genre": ["Romance"],
+    "ratingValue": "",
+    "summary_text": "Add a Plot",
+    "ratingCount": "",
+    "director": { "name": "Einar Zangenberg", "name_id": "nm1267460" },
+    "cast": [
+      { "name": "Edith Buemann", "name_id": "nm0119164" },
+      { "name": "Anton De Verdier", "name_id": "nm0212091" },
+      { "name": "Elna From", "name_id": "nm1458590" },
+      { "name": "Ellen Rassow", "name_id": "nm0711514" }
+    ]
+  },
+  {
+    "ImdbId": "tt2421520",
+    "_id": "tt2421520",
+    "name": "Forbandelsen",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BODRiNWRlMDMtMjBmZi00MzlkLWIwNDYtNjI5M2YxOTk5YTg1XkEyXkFqcGdeQXVyMjI3MDczMjI@.",
+    "year": "1914",
+    "certificate": "",
+    "runtime": "",
+    "genre": ["Drama"],
+    "ratingValue": "",
+    "summary_text": "Add a Plot",
+    "ratingCount": "",
+    "director": { "name": "Edith Buemann", "name_id": "nm0119164" },
+    "cast": [
+      { "name": "Tronier Funder", "name_id": "nm0298614" },
+      { "name": "Ella La Cour", "name_id": "nm0478475" },
+      { "name": "Einar Zangenberg", "name_id": "nm1267460" }
+    ]
+  },
+  {
+    "ImdbId": "tt2421454",
+    "_id": "tt2421454",
+    "name": "Jack's First Major",
+    "poster_url": "https://m.media-amazon.com/images/S/sash/NapCxx-VwSOJtCZ.",
+    "year": "2012 TV Movie",
+    "certificate": "",
+    "runtime": "60 min",
+    "genre": ["Documentary"],
+    "ratingValue": "",
+    "summary_text": "Add a Plot",
+    "ratingCount": "",
+    "director": { "name": "George Roy", "name_id": "nm0747025" },
+    "cast": []
+  },
+  {
+    "ImdbId": "tt2421438",
+    "_id": "tt2421438",
+    "name": "Dirk Smirk, Secret Agent",
+    "poster_url": "https://m.media-amazon.com/images/S/sash/NapCxx-VwSOJtCZ.",
+    "year": "2012",
+    "certificate": "",
+    "runtime": "",
+    "genre": ["Comedy"],
+    "ratingValue": "",
+    "summary_text": "The Agency is threatened when a terrorist organization devises an evil plot to control the world by capturing the Madame De Vascalles Sisters. Only Dirk Smirk and the Impossibly beautiful Captain Tremaine can save the day.",
+    "ratingCount": "",
+    "director": { "name": "Aaron L. Williams", "name_id": "nm3197793" },
+    "cast": [
+      { "name": "Taylor Glynn", "name_id": "nm5300712" },
+      { "name": "Alexandra Goel", "name_id": "nm5246103" },
+      { "name": "Isabella Goel", "name_id": "nm5245754" },
+      { "name": "Alayna Henry", "name_id": "nm4694793" }
+    ]
+  },
+  {
+    "ImdbId": "tt2421432",
+    "_id": "tt2421432",
+    "name": "Bristede Strenge",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BOTBhNDY4M2ItZDYwMC00ZGUwLThmYTgtNGUzZTk4NTJiMzg3XkEyXkFqcGdeQXVyMjI3MDczMjI@.",
+    "year": "1913",
+    "certificate": "",
+    "runtime": "",
+    "genre": ["Romance"],
+    "ratingValue": "",
+    "summary_text": "Add a Plot",
+    "ratingCount": "",
+    "director": { "name": "Edith Buemann", "name_id": "nm0119164" },
+    "cast": [
+      { "name": "Anton De Verdier", "name_id": "nm0212091" },
+      { "name": "Peter Kj\u00e6r", "name_id": "nm1900686" },
+      { "name": "Einar Zangenberg", "name_id": "nm1267460" }
+    ]
+  },
+  {
+    "ImdbId": "tt2421402",
+    "_id": "tt2421402",
+    "name": "D\u00f8dsklippen",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BNDc3NjhlZTctZGU4YS00YjJjLTllMDgtZDI3NzJmNWY2ZjM1XkEyXkFqcGdeQXVyMjI3MDczMjI@.",
+    "year": "1913",
+    "certificate": "",
+    "runtime": "",
+    "genre": ["Drama"],
+    "ratingValue": "",
+    "summary_text": "Add a Plot",
+    "ratingCount": "",
+    "director": { "name": "Einar Zangenberg", "name_id": "nm1267460" },
+    "cast": [
+      { "name": "Edith Buemann", "name_id": "nm0119164" },
+      { "name": "Tronier Funder", "name_id": "nm0298614" },
+      { "name": "Ella La Cour", "name_id": "nm0478475" },
+      { "name": "Hulda Lauritzen", "name_id": "nm5266634" }
+    ]
+  },
+  {
+    "ImdbId": "tt2421360",
+    "_id": "tt2421360",
+    "name": "Moderk\u00e6rlighed",
+    "poster_url": "https://m.media-amazon.com/images/S/sash/NapCxx-VwSOJtCZ.",
+    "year": "1913",
+    "certificate": "",
+    "runtime": "",
+    "genre": ["Drama"],
+    "ratingValue": "",
+    "summary_text": "Add a Plot",
+    "ratingCount": "",
+    "director": { "name": "Einar Zangenberg", "name_id": "nm1267460" },
+    "cast": [
+      { "name": "Richard Christensen", "name_id": "nm0159886" },
+      { "name": "Emil Helsengreen", "name_id": "nm0375838" },
+      { "name": "Emma Wiehe", "name_id": "nm0927374" },
+      { "name": "Alfi Zangenberg", "name_id": "nm2558325" }
+    ]
+  }
+]

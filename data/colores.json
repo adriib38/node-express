@@ -68,5 +68,285 @@
       "name": "yellow",
       "hexCode": "#f3f746"
     }
+  },
+  {
+    "id": 11,
+    "properties": {
+      "name": "red",
+      "hexCode": "#ff0000"
+    }
+  },
+  {
+    "id": 12,
+    "properties": {
+      "name": "blue",
+      "hexCode": "#0000ff"
+    }
+  },
+  {
+    "id": 13,
+    "properties": {
+      "name": "orange",
+      "hexCode": "#ff9900"
+    }
+  },
+  {
+    "id": 14,
+    "properties": {
+      "name": "pink",
+      "hexCode": "#ff69b4"
+    }
+  },
+  {
+    "id": 15,
+    "properties": {
+      "name": "brown",
+      "hexCode": "#a52a2a"
+    }
+  },
+  {
+    "id": 16,
+    "properties": {
+      "name": "cyan",
+      "hexCode": "#00ffff"
+    }
+  },
+  {
+    "id": 17,
+    "properties": {
+      "name": "gold",
+      "hexCode": "#ffd700"
+    }
+  },
+  {
+    "id": 18,
+    "properties": {
+      "name": "indigo",
+      "hexCode": "#4b0082"
+    }
+  },
+  {
+    "id": 19,
+    "properties": {
+      "name": "lavender",
+      "hexCode": "#e6e6fa"
+    }
+  },
+  {
+    "id": 20,
+    "properties": {
+      "name": "magenta",
+      "hexCode": "#ff00ff"
+    }
+  },
+  {
+    "id": 21,
+    "properties": {
+      "name": "peach",
+      "hexCode": "#ffcc99"
+    }
+  },
+  {
+    "id": 22,
+    "properties": {
+      "name": "turquoise",
+      "hexCode": "#40e0d0"
+    }
+  },
+  {
+    "id": 23,
+    "properties": {
+      "name": "violet",
+      "hexCode": "#9400d3"
+    }
+  },
+  {
+    "id": 24,
+    "properties": {
+      "name": "white",
+      "hexCode": "#ffffff"
+    }
+  },
+  {
+    "id": 25,
+    "properties": {
+      "name": "black",
+      "hexCode": "#000000"
+    }
+  },
+  {
+    "id": 26,
+    "properties": {
+      "name": "gray",
+      "hexCode": "#808080"
+    }
+  },
+  {
+    "id": 27,
+    "properties": {
+      "name": "lime",
+      "hexCode": "#00ff00"
+    }
+  },
+  {
+    "id": 28,
+    "properties": {
+      "name": "orchid",
+      "hexCode": "#da70d6"
+    }
+  },
+  {
+    "id": 29,
+    "properties": {
+      "name": "plum",
+      "hexCode": "#dda0dd"
+    }
+  },
+  {
+    "id": 30,
+    "properties": {
+      "name": "salmon",
+      "hexCode": "#fa8072"
+    }
+  },
+  {
+    "id": 31,
+    "properties": {
+      "name": "tan",
+      "hexCode": "#d2b48c"
+    }
+  },
+  {
+    "id": 32,
+    "properties": {
+      "name": "coral",
+      "hexCode": "#ff7f50"
+    }
+  },
+  {
+    "id": 33,
+    "properties": {
+      "name": "sky blue",
+      "hexCode": "#87ceeb"
+    }
+  },
+  {
+    "id": 34,
+    "properties": {
+      "name": "chocolate",
+      "hexCode": "#d2691e"
+    }
+  },
+  {
+    "id": 35,
+    "properties": {
+      "name": "dark green",
+      "hexCode": "#006400"
+    }
+  },
+  {
+    "id": 36,
+    "properties": {
+      "name": "forest green",
+      "hexCode": "#228b22"
+    }
+  },
+  {
+    "id": 37,
+    "properties": {
+      "name": "hot pink",
+      "hexCode": "#ff69b4"
+    }
+  },
+  {
+    "id": 38,
+    "properties": {
+      "name": "midnight blue",
+      "hexCode": "#191970"
+    }
+  },
+  {
+    "id": 39,
+    "properties": {
+      "name": "pale green",
+      "hexCode": "#98fb98"
+    }
+  },
+  {
+    "id": 40,
+    "properties": {
+      "name": "seashell",
+      "hexCode": "#fff5ee"
+    }
+  },
+  {
+    "id": 41,
+    "properties": {
+      "name": "sienna",
+      "hexCode": "#a0522d"
+    }
+  },
+  {
+    "id": 42,
+    "properties": {
+      "name": "tomato",
+      "hexCode": "#ff6347"
+    }
+  },
+  {
+    "id": 43,
+    "properties": {
+      "name": "wheat",
+      "hexCode": "#f5deb3"
+    }
+  },
+  {
+    "id": 44,
+    "properties": {
+      "name": "crimson",
+      "hexCode": "#dc143c"
+    }
+  },
+  {
+    "id": 45,
+    "properties": {
+      "name": "lime green",
+      "hexCode": "#32cd32"
+    }
+  },
+  {
+    "id": 46,
+    "properties": {
+      "name": "slate blue",
+      "hexCode": "#6a5acd"
+    }
+  },
+  {
+    "id": 47,
+    "properties": {
+      "name": "powder blue",
+      "hexCode": "#b0e0e6"
+    }
+  },
+  {
+    "id": 48,
+    "properties": {
+      "name": "rosy brown",
+      "hexCode": "#bc8f8f"
+    }
+  },
+  {
+    "id": 49,
+    "properties": {
+      "name": "dark gray",
+      "hexCode": "#a9a9a9"
+    }
+  },
+  {
+    "id": 50,
+    "properties": {
+      "name": "thistle",
+      "hexCode": "#d8bfd8"
+    }
   }
 ]

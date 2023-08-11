@@ -1,6 +1,12 @@
 # Express Node js API organized
 
 index.js -> /routes -> /controller -> dataService
+
+## Run dev server
+```
+ npm start
+```
+
 ## API Reference
 
 #### Get all items JSON

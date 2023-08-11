@@ -25,13 +25,22 @@ function getColorById(req, res) {
       res.status(500).send("Error interno del servidor e");
     } else {
       const colores = JSON.parse(data);
-      let coloresResponse = colores.find((color) => color.id == colorId);
+      let colorResponse = null;
+      //Buscar el color por id
+      colorResponse = colores.find((color) => color.id == colorId);
 
-      if (coloresResponse) {
-        res.json(coloresResponse);
+      if (colorResponse) {
+        //Si se ha encontrado el color, devolverlo
+        res.json(colorResponse);
       } else {
-        console.log("Color no encontrado");
-        res.status(404).send("Color no encontrado");
+        //Si no se ha encontrado el color, devolver un error
+        res.status(404).json(
+          {
+            id: colorId,
+            error_code: 404,
+            error_text: "Color no encontrado"
+          }
+        );
       }
     }
   });
