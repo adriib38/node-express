@@ -23,7 +23,13 @@ function getFilmById(req, res) {
   fs.readFile(filmsFilePath, "utf8", function (err, data) {
     if (err) {
       console.error(err);
-      res.status(500).send("Error interno del servidor e");
+      res.status(500).json(
+        {
+          id: filmId,
+          error_code: 500,
+          error_text: "Error interno del servidor"
+        },
+      );
     } else {
       const films = JSON.parse(data);
 

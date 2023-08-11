@@ -7,7 +7,13 @@ function getColors(req, res) {
   fs.readFile(colorsFilePath, "utf8", function (err, data) {
     if (err) {
       console.error(err);
-      res.status(500).send("Error interno del servidor");
+      res.status(500).json(
+        {
+          id: filmId,
+          error_code: 500,
+          error_text: "Error interno del servidor"
+        },
+      );
     } else {
       const colors = JSON.parse(data);
       res.json(colors);
